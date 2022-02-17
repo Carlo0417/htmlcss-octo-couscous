@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add Record</title>
+</head>
+
+<style>
+body
+{
+  margin-top: 40px;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+}
+
+input[type=text], select {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 90%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+div {
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding: 40px;
+  margin: 20px 400px 20px 400px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.button 
+{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 190px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.buttongrey{background-color: grey;}
+
+.buttongrey:hover {background-color: dimgrey; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);}
+
+</style>
+<body>
+
+<div>
+<h2 style="color: #45a049;">ADD RECORD FOR CONTACT TRACING</h2>
+
+  <form action="home.html">
+    <input type="text" placeholder="Full Name..."> <br>
+
+    <input type="text" placeholder="Current Address..."> <br>
+
+    <input type="text" placeholder="Contact Number..."> <br>
+
+    <input type="text" placeholder="Latest Temperature..."> <br>
+  
+    <input type="submit" value="Submit"> <br>
+
+    <a href="home.html" class="button buttongrey">Cancel</a>
+  </form>
+</div>
+</body>
+</html>
